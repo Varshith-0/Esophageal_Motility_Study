@@ -1,17 +1,17 @@
 Parameter,Value,Normal Range
 Landmarks,,
-LES midpoint (from nares)(cm),40.0,
-Proximal LES (from nares)(cm),39.0,
-Distal LES (from nares)(cm),41.6,
-LES length(cm),2.6,2.7-4.8
-Esophageal length (LES-UES centers)(cm),23.0,
-PIP (from nares)(cm),40.8,
-Intraabdominal LES length(cm),0.7,
+LES midpoint (from nares)(cm),45.7,
+Proximal LES (from nares)(cm),45.4,
+Distal LES (from nares)(cm),47.7,
+LES length(cm),2.3,2.7-4.8
+Esophageal length (LES-UES centers)(cm),22.4,
+PIP (from nares)(cm),43.3,
+Intraabdominal LES length(cm),4.5,
 Hiatal hernia?,No,
 LES Pressures,,
 Pressure meas. method,"eSleeve,IRP",
-Basal (respiratory min.)(mmHg),9.6,4.8-32.0
-Basal (respiratory mean)(mmHg),17.3,13-43
-Residual (mean)(mmHg),6.1,
-Residual (median)(mmHg),6.2,<15.0
-Residual (highest)(mmHg),9.6,
+Basal (respiratory min.)(mmHg),6.8,4.8-32.0
+Basal (respiratory mean)(mmHg),10.3,13-43
+Residual (mean)(mmHg),3.2,
+Residual (median)(mmHg),3.7,<15.0
+Residual (highest)(mmHg),7.5,

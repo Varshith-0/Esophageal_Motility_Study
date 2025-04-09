@@ -1,3 +1,4 @@
+import docx2txt
 from docx import Document
 import zipfile
 import pandas as pd
@@ -8,11 +9,44 @@ import cv2
 import numpy as np
 import json
 
-
-def extract_images(docx_path, csv_path):
+def extract_images(docx_path,output_folder, csv_path):
     doc = Document(docx_path)
     if not doc.inline_shapes:
-        print("No diagrams/images detected in the document.")
+        os.makedirs(output_folder, exist_ok=True)
+        # This will extract images and return the plain text
+        _ = docx2txt.process(docx_path, output_folder)
+
+        images = [f for f in os.listdir(output_folder) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif'))]
+        images.sort(key=lambda x: int(''.join(filter(str.isdigit, x))))  # Sort numerically if needed
+
+        if not images:
+            print("No images found.")
+            return
+
+        print(f"Extracted {len(images)} images in (almost) document order into '{output_folder}'.")
+
+        # Rename logic
+        custom_names = [
+            "Swallow Composite",
+            "Resting Pressure Profile & Anatomy",
+            "Landmark Id"
+        ]
+
+        for i, image in enumerate(images):
+            if i < len(custom_names):
+                new_name = custom_names[i]
+            else:
+                new_name = f"Swallow #{i - len(custom_names) + 1}"
+
+            # Clean up the filename
+            safe_name = ''.join(c if c.isalnum() or c in [' ', '-', '_', '#'] else '_' for c in new_name).strip()
+            new_filename = f"{safe_name}.png"
+            
+            old_path = os.path.join(output_folder, image)
+            new_path = os.path.join(output_folder, new_filename)
+            
+            os.rename(old_path, new_path)
+
         return
 
     print(f"Found {len(doc.inline_shapes)} images/diagrams in the document. Extracting...")
@@ -54,6 +88,7 @@ def extract_images(docx_path, csv_path):
                 f.write(image_part.blob)
 
     print(f"Saved {len(doc.inline_shapes)} images")
+
 
 def process_docx_tables(docx_path, output_dir="."):
     """
@@ -265,10 +300,9 @@ def remove_grid_lines_from_images(folder_path):
 
     
 if __name__ == "__main__":
-    docx_path = "subj.docx"
+    docx_path = "subj2.docx"
     process_docx_tables(docx_path, "extracted_data")
     extract_text_to_json(docx_path)
     image_file_names = "extracted_data/Image_filenames.csv"    
-    extract_images(docx_path, image_file_names)
+    extract_images(docx_path, "images", "extracted_data/Image_filenames.csv" )
     remove_grid_lines_from_images('images')
-    

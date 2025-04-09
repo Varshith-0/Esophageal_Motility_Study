@@ -1,7 +1,7 @@
 Parameter,Value,Normal Range
-"Location (center, fr. nares)(cm)",17.0,
-Mean basal pressure(mmHg),70.8,34-104
-Mean residual pressure(mmHg),2.2,<12.0
-Relaxation time-to-nadir(ms),100,74-365
-Relaxation duration(ms),769,480-1020
-Recovery time(ms),668,259-760
+"Location (center, fr. nares)(cm)",23.3,
+Mean basal pressure(mmHg),18.7,34-104
+Mean residual pressure(mmHg),-4.1,<12.0
+Relaxation time-to-nadir(ms),2598,74-365
+Relaxation duration(ms),3744,480-1020
+Recovery time(ms),1146,259-760

@@ -1,29 +1,29 @@
 Category,Parameter,Value
-Basal Pressures,"LES, respiratory min(mmHg)",9.6 (4.8-32.0)
-Basal Pressures,"LES, respiratory mean(mmHg)",17.3 (13-43)
-Basal Pressures,UES mean(mmHg),70.8 (34-104)
-Anatomy,LES mid (end-exp.)(cm),40.0
-Anatomy,LES proximal(cm),39.0
-Anatomy,LES distal(cm),41.6
-Anatomy,LES length(cm),2.6 (2.7-4.8)
-Anatomy,LES intraabdominal(cm),0.7
-Anatomy,PIP(cm),40.8
-Anatomy,UES (center)(cm),17.0
-Anatomy,Esophageal length(cm),23.0
+Basal Pressures,"LES, respiratory min(mmHg)",6.8 (4.8-32.0)
+Basal Pressures,"LES, respiratory mean(mmHg)",10.3 (13-43)
+Basal Pressures,UES mean(mmHg),18.7 (34-104)
+Anatomy,LES mid (end-exp.)(cm),45.7
+Anatomy,LES proximal(cm),45.4
+Anatomy,LES distal(cm),47.7
+Anatomy,LES length(cm),2.3 (2.7-4.8)
+Anatomy,LES intraabdominal(cm),4.5
+Anatomy,PIP(cm),43.3
+Anatomy,UES (center)(cm),23.3
+Anatomy,Esophageal length(cm),22.4
 Anatomy,Hiatal hernia,No
-Motility,LES percent relaxation(%),69 (>40.0%)
-Motility,Distal contr. integral(mmHg-cm-s),288.5 (500-5000)
-Motility,Distal contr. int. (highest)(mmHg-cm-s),473.4
+Motility,LES percent relaxation(%),58 (>40.0%)
+Motility,Distal contr. integral(mmHg-cm-s),106.0 (500-5000)
+Motility,Distal contr. int. (highest)(mmHg-cm-s),106.0
 Motility,Number of hypercontractile swallows,0
-Motility,Incomplete bolus clearance(%),8
-Motility,Bolus transit time(s),2.1
-Motility,LES percent relaxation(%),69 (>40.0%)
-Motility,Distal contr. integral(mmHg-cm-s),288.5 (500-5000)
-Motility,Distal contr. int. (highest)(mmHg-cm-s),473.4
+Motility,Incomplete bolus clearance(%),47
+Motility,Bolus transit time(s),5.8
+Motility,LES percent relaxation(%),58 (>40.0%)
+Motility,Distal contr. integral(mmHg-cm-s),106.0 (500-5000)
+Motility,Distal contr. int. (highest)(mmHg-cm-s),106.0
 Motility,Number of hypercontractile swallows,0
-Motility,Incomplete bolus clearance(%),8
-Motility,Bolus transit time(s),2.1
-Residual Pressures,LES (mean)(mmHg),6.1
-Residual Pressures,LES (median)(mmHg),6.2 (<15.0)
-Residual Pressures,LES (highest)(mmHg),9.6
-Residual Pressures,UES (mean)(mmHg),2.2 (<12.0)
+Motility,Incomplete bolus clearance(%),47
+Motility,Bolus transit time(s),5.8
+Residual Pressures,LES (mean)(mmHg),3.2
+Residual Pressures,LES (median)(mmHg),3.7 (<15.0)
+Residual Pressures,LES (highest)(mmHg),7.5
+Residual Pressures,UES (mean)(mmHg),-4.1 (<12.0)

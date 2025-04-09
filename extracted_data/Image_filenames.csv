@@ -1,13 +1,101 @@
-Landmark Id,Swallow #1
-Swallow #2,Swallow #3
-Swallow #4,Swallow #5
-Swallow #6,Swallow #7
-Swallow #8,Swallow #9
-Swallow #10,Swallow #11
-Swallow #12,Swallow #13
-Swallow #14,Swallow #15
-Swallow #16,Swallow #17
-Swallow #18,Swallow #19
-Swallow #20,Swallow #21
-Swallow #22,Swallow #23
-Swallow #24,Swallow #25
+,Normal,Group / Mean,"Swal.
+#1","Swal.
+#2","Swal.
+#3","Swal.
+#4","Swal.
+#5","Swal.
+#6","Swal.
+#7","Swal.
+#8","Swal.
+#9","Swal.
+#10"
+ESOPHAGEAL MOTILITY,,,,,,,,,,,,
+LES residual pressure (mean) (mmHg),,3.2,7.5,5.0,4.4,4.3,5.1,5.7,3.7,0.6,2.2,0.9
+LES residual pressure (median) (mmHg),<15.0,3.7,7.5,5.0,4.4,4.3,5.1,5.7,3.7,0.6,2.2,0.9
+LES percent relaxation (%),>40.0%,58,39,68,49,39,28,12,40,85,57,84
+Chicago Classification,,,,,,,,,,,,
+% failed,,93,1,1,0,1,1,1,1,1,1,1
+% weak,,7,0,0,1,0,0,0,0,0,0,0
+% ineffective,,100,1,1,1,1,1,1,1,1,1,1
+% panesophageal pressurization,,0,0,0,0,0,0,0,0,0,0,0
+% premature contraction,,0,0,0,0,0,0,0,0,0,0,0
+% rapid contraction,,0,0,0,0,0,0,0,0,0,0,0
+% fragmented,,0,0,0,0,0,0,0,0,0,0,0
+% intact,,0,0,0,0,0,0,0,0,0,0,0
+Number of hypercontractile swallows,,0,,,,,,,,,,
+Additional High Resolution Parameters,,,,,,,,,,,,
+Distal latency (sec),,9.2,N/A,N/A,9.2,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Distal contractile integral (mmHg-cm-s),500-5000,106.0,N/A,N/A,106.0,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+Distal contractile integral (highest) (mmHg-cm-s),,106.0,,,,,,,,,,
+Contractile front velocity (cm/s),<9.0,1.9,N/A,N/A,1.9,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+IMPEDANCE,,,,,,,,,,,,
+Incomplete bolus clearance (% of swallows),,47,1,0,1,0,1,1,0,0,0,0
+Bolus transit time (sec),,5.8,N/A,N/A,5.8,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+UES / PHARYNGEAL MOTILITY,,,,,,,,,,,,
+UES residual pressure (mean) (mmHg),<12.0,-4.1,-23.4,-27.8,-32.6,-32.2,28.9,-19.3,71.2,-22.8,-22.5,31.6
+UES relaxation time-to-nadir  (msec),74-365,2598,250,190,500,430,3,370,2820,280,590,12780
+UES relaxation duration (msec),480-1020,3744,1030,750,1150,970,9463,1150,2823,1010,1100,12783
+UES recovery time (msec),259-760,1146,780,560,650,540,9460,780,3,730,510,3
+Peak pharyngeal pressure (@3.0 above mid UES) (mmHg),,112.2,109.2,120.8,104.3,119.0,99.1,101.4,80.2,95.6,71.3,153.9
+Peak pharyngeal pressure (@2.0 above mid UES) (mmHg),,132.0,113.7,219.7,173.9,208.1,108.9,101.4,130.1,91.1,106.9,123.3
+Pharyngeal upstroke (@3.0 above UES) (mmHg/s),,1302.5,679.1,449.9,671.6,754.2,9999.0,659.1,631.6,566.8,591.5,877.6
+Pharyngeal upstroke (@2.0 above mid UES) (mmHg/s),,356.6,506.3,877.2,793.0,422.0,160.3,384.2,293.6,73.7,136.0,349.4
+Contraction time-to-peak (@3.0 above mid UES) (msec),,187,200,260,200,200,0,190,180,190,170,210
+Contraction time-to-peak (@2.0 above mid UES) (msec),,476,220,240,210,320,590,250,370,1220,780,310
+Contraction duration (@3.0 above mid UES) (msec),,1299,890,1730,1370,330,193,1090,1170,630,740,2580
+Contraction duration (@2.0 above mid UES) (msec),,2788,4090,1620,2870,3560,6280,3560,3650,2640,790,2300
+Recovery time (@3.0 above mid UES) (msec),,1112,690,1470,1170,130,193,900,990,440,570,2370
+Recovery time (@2.0 above mid UES) (msec),,2311,3870,1380,2660,3240,5690,3310,3280,1420,10,1990
+Phar. onset velocity (betw. U2&U1 above mid UES) (cm/s),,3.7,4.8,14.3,5.9,4.3,0.4,4.5,3.8,-0.1,0.2,5.3
+% peristaltic pharyngeal contractions,,100,,,,,,,,,,
+Phayr. start (@ 2.0 above mid UES) To UES Start (msec),,-1521,-710,1630,-1020,20720,-1573,-6970,-760,-4840,-6470,2150
+Phayr. start (@ 2.0 above mid UES) To UES End (msec),,2223,320,2380,130,21690,7890,-5820,2063,-3830,-5370,14933
+Phayr. start (@ 2.0 above mid UES) To UES Nadir (msec),,1076,-460,1820,-520,21150,-1570,-6600,2060,-4560,-5880,14930
+,Normal,Group / Mean,"Swal.
+#11","Swal.
+#12","Swal.
+#13","Swal.
+#14","Swal.
+#15",,,,,
+ESOPHAGEAL MOTILITY,,,,,,,,,,,,
+LES residual pressure (mean) (mmHg),,3.2,0.1,2.8,4.1,0.4,1.8,,,,,
+LES residual pressure (median) (mmHg),<15.0,3.7,0.1,2.8,4.1,0.4,1.8,,,,,
+LES percent relaxation (%),>40.0%,58,99,46,57,92,82,,,,,
+Chicago Classification,,,,,,,,,,,,
+% failed,,93,1,1,1,1,1,,,,,
+% weak,,7,0,0,0,0,0,,,,,
+% ineffective,,100,1,1,1,1,1,,,,,
+% panesophageal pressurization,,0,0,0,0,0,0,,,,,
+% premature contraction,,0,0,0,0,0,0,,,,,
+% rapid contraction,,0,0,0,0,0,0,,,,,
+% fragmented,,0,0,0,0,0,0,,,,,
+% intact,,0,0,0,0,0,0,,,,,
+Number of hypercontractile swallows,,0,,,,,,,,,,
+Additional High Resolution Parameters,,,,,,,,,,,,
+Distal latency (sec),,9.2,N/A,N/A,N/A,N/A,N/A,,,,,
+Distal contractile integral (mmHg-cm-s),500-5000,106.0,N/A,N/A,N/A,N/A,N/A,,,,,
+Distal contractile integral (highest) (mmHg-cm-s),,106.0,,,,,,,,,,
+Contractile front velocity (cm/s),<9.0,1.9,N/A,N/A,N/A,N/A,N/A,,,,,
+IMPEDANCE,,,,,,,,,,,,
+Incomplete bolus clearance (% of swallows),,47,0,1,1,1,0,,,,,
+Bolus transit time (sec),,5.8,N/A,N/A,N/A,N/A,N/A,,,,,
+UES / PHARYNGEAL MOTILITY,,,,,,,,,,,,
+UES residual pressure (mean) (mmHg),<12.0,-4.1,-29.3,-23.8,-24.5,98.7,-33.5,,,,,
+UES relaxation time-to-nadir  (msec),74-365,2598,610,660,240,19030,220,,,,,
+UES relaxation duration (msec),480-1020,3744,1300,1110,1010,19733,790,,,,,
+UES recovery time (msec),259-760,1146,690,450,770,703,570,,,,,
+Peak pharyngeal pressure (@3.0 above mid UES) (mmHg),,112.2,164.8,72.3,71.4,147.4,172.0,,,,,
+Peak pharyngeal pressure (@2.0 above mid UES) (mmHg),,132.0,136.9,100.0,80.2,122.7,163.7,,,,,
+Pharyngeal upstroke (@3.0 above UES) (mmHg/s),,1302.5,875.6,491.7,547.4,845.7,896.0,,,,,
+Pharyngeal upstroke (@2.0 above mid UES) (mmHg/s),,356.6,282.1,264.2,181.6,99.0,526.7,,,,,
+Contraction time-to-peak (@3.0 above mid UES) (msec),,187,220,180,180,210,220,,,,,
+Contraction time-to-peak (@2.0 above mid UES) (msec),,476,390,370,380,1190,310,,,,,
+Contraction duration (@3.0 above mid UES) (msec),,1299,1890,1090,2470,1560,1760,,,,,
+Contraction duration (@2.0 above mid UES) (msec),,2788,1910,2670,1620,2640,1620,,,,,
+Recovery time (@3.0 above mid UES) (msec),,1112,1670,910,2290,1350,1540,,,,,
+Recovery time (@2.0 above mid UES) (msec),,2311,1520,2300,1240,1450,1310,,,,,
+Phar. onset velocity (betw. U2&U1 above mid UES) (cm/s),,3.7,4.8,0.2,-0.4,0.0,7.7,,,,,
+% peristaltic pharyngeal contractions,,100,,,,,,,,,,
+Phayr. start (@ 2.0 above mid UES) To UES Start (msec),,-1521,-1240,-5440,2120,-22520,2100,,,,,
+Phayr. start (@ 2.0 above mid UES) To UES End (msec),,2223,60,-4330,3130,-2787,2890,,,,,
+Phayr. start (@ 2.0 above mid UES) To UES Nadir (msec),,1076,-630,-4780,2360,-3490,2320,,,,,

@@ -1,20 +1,20 @@
 Parameter,Value,Normal Range
 Esophageal Motility,,Normal
-Number of swallows evaluated,25,
+Number of swallows evaluated,15,
 Chicago Classification,,
-% failed,12,
-% weak,84,
-% ineffective,96,
+% failed,93,
+% weak,7,
+% ineffective,100,
 % panesophageal pressurization,0,
-% premature contraction,8,
+% premature contraction,0,
 % rapid contraction,0,
 % fragmented,0,
-% intact,4,
+% intact,0,
 Number of hypercontractile swallows,0,
 Additional High Resolution Parameters,,
-Distal latency,8.0,
-Distal contractile integral(mean)(mmHg-cm-s),288.5,500-5000
-Distal contractile integral(highest)(mmHg-cm-s),473.4,
-Contractile front velocity(cm/s),2.4,<9.0
+Distal latency,9.2,
+Distal contractile integral(mean)(mmHg-cm-s),106.0,500-5000
+Distal contractile integral(highest)(mmHg-cm-s),106.0,
+Contractile front velocity(cm/s),1.9,<9.0
 Impedance analysis,,
-Incomplete bolus clearance(%),8,
+Incomplete bolus clearance(%),47,
